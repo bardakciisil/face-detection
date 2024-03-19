@@ -7,3 +7,63 @@ canvas{
   position: absolute;
 }
 
+.navbar{
+  height: 50px;
+  background-color: #7E57C2;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.newPost{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addPost{
+  display: flex;
+}
+
+label{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.addImg{
+  width:25px;
+}
+
+.postForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+
+}
+
+button{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #7E57C2;
+  cursor: pointer;
+}
+
+.postInput{
+  height: 30px;
+  border: none;
+  margin-bottom: 10px;
+}
