@@ -67,3 +67,51 @@ button{
   border: none;
   margin-bottom: 10px;
 }
+
+.container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.rightInput {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.rightButton {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.some1Input{
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.some1s{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.name{
+  font-weight: bold;
+  
+}
